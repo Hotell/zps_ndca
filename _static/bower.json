@@ -1,0 +1,22 @@
+{
+  "name": "zps_ndca",
+  "version": "0.0.1",
+  "authors": [
+    "Martin Hotell <hochelmartin@gmail.com>"
+  ],
+  "description": "Static asset for WP theme",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "font-awesome": "~4.0.3"
+  }
+}
