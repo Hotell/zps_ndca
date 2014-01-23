@@ -28,12 +28,21 @@ gulp.task('images', function () {
 });
 
 gulp.task('less', function () {
-    gulp.src('./css/less/**/*.less')
+    var lessFiles = './css/less/**/*.less',
+        lessRoot = './css/less/style.less';
+
+    gulp.src(lessRoot)
         .pipe(less({
             paths: [ path.join(__dirname, 'less', 'includes') ]
         }))
         .pipe(gulp.dest('./css'));
+
+    gulp.watch(lessFiles, function(){
+       gulp.run('less');
+    });
 });
+
+
 
 // The default task (called when you run `gulp`)
 gulp.task('default', function () {

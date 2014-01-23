@@ -1,0 +1,78 @@
+.theme-navbar {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.theme-navbar-toggle {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #ddd;
+  &:hover, &:focus {
+    color: #fff;
+  }
+}
+
+.theme-navbar-menu {
+  text-transform: uppercase;
+}
+
+.theme-header-wrap {
+  margin-top: -20px;
+  background-color: @theme-brand-contrast-green;
+  border: .5em solid darken(@theme-brand-contrast-green, 10%);
+  border-left: 0;
+  border-right: 0;
+
+  .theme-header-wrap-slogan{
+    border-color: darken(@theme-brand-contrast-green, 15%);
+    > p{
+      line-height: 1.8;
+    }
+  }
+}
+
+.theme-featurette {
+
+  padding-top: @l-padding-xlarge;
+
+  .theme-featurette-box{
+    margin-bottom: @l-padding-xlarge;
+  }
+  .theme-featurette-icon {
+    font-size: 3em;
+    color: @theme-brand-primary;
+  }
+
+  .theme-featurette-text{
+    line-height: 28px;
+  }
+  //  .fa{
+  ////    font-size: 2em;
+  //  }
+}
+
+.theme-about-teaser{
+  border-top: 2px solid darken(@theme-brand-contrast-red,5%);
+  background-color: @theme-brand-contrast-red;
+  .padding-vertical(@l-padding-large);
+//  background-color: #f5f2e1;
+  img{
+    margin-top: 1.4em;
+  }
+}
+
+.theme-footer{
+  .padding-vertical(@l-padding-large);
+  background-color: @theme-brand-primary;
+  border-top: 1px solid darken(@theme-brand-primary,20%);
+
+}
+
+
+// Buttons
+.theme-btn-primary{
+  .button-variant(#fff; @theme-brand-primary; darken(@theme-brand-primary, 5%));
+}
+.theme-btn-secondary{
+  .button-variant(#fff; @theme-brand-contrast-green; darken(@theme-brand-contrast-green, 5%));
+}

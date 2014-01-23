@@ -1,0 +1,148 @@
+body {
+  background-color: #f0eddc;
+}
+hr {
+  border-color: #e1dbb8;
+}
+p {
+  margin-bottom: 1.5em;
+}
+.theme-navbar {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.theme-navbar-toggle {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #ddd;
+}
+.theme-navbar-toggle:hover,
+.theme-navbar-toggle:focus {
+  color: #fff;
+}
+.theme-navbar-menu {
+  text-transform: uppercase;
+}
+.theme-header-wrap {
+  margin-top: -20px;
+  background-color: #bad954;
+  border: 0.5em solid #a7cd2d;
+  border-left: 0;
+  border-right: 0;
+}
+.theme-header-wrap .theme-header-wrap-slogan {
+  border-color: #96b829;
+}
+.theme-header-wrap .theme-header-wrap-slogan > p {
+  line-height: 1.8;
+}
+.theme-featurette {
+  padding-top: 3.5em;
+}
+.theme-featurette .theme-featurette-box {
+  margin-bottom: 3.5em;
+}
+.theme-featurette .theme-featurette-icon {
+  font-size: 3em;
+  color: #f19640;
+}
+.theme-featurette .theme-featurette-text {
+  line-height: 28px;
+}
+.theme-about-teaser {
+  border-top: 2px solid #e33725;
+  background-color: #e64c3c;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+.theme-about-teaser img {
+  margin-top: 1.4em;
+}
+.theme-footer {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: #f19640;
+  border-top: 1px solid #bd630e;
+}
+.theme-btn-primary {
+  color: #ffffff;
+  background-color: #f19640;
+  border-color: #ef8928;
+}
+.theme-btn-primary:hover,
+.theme-btn-primary:focus,
+.theme-btn-primary:active,
+.theme-btn-primary.active,
+.open .dropdown-toggle.theme-btn-primary {
+  color: #ffffff;
+  background-color: #ee811a;
+  border-color: #cb6a0f;
+}
+.theme-btn-primary:active,
+.theme-btn-primary.active,
+.open .dropdown-toggle.theme-btn-primary {
+  background-image: none;
+}
+.theme-btn-primary.disabled,
+.theme-btn-primary[disabled],
+fieldset[disabled] .theme-btn-primary,
+.theme-btn-primary.disabled:hover,
+.theme-btn-primary[disabled]:hover,
+fieldset[disabled] .theme-btn-primary:hover,
+.theme-btn-primary.disabled:focus,
+.theme-btn-primary[disabled]:focus,
+fieldset[disabled] .theme-btn-primary:focus,
+.theme-btn-primary.disabled:active,
+.theme-btn-primary[disabled]:active,
+fieldset[disabled] .theme-btn-primary:active,
+.theme-btn-primary.disabled.active,
+.theme-btn-primary[disabled].active,
+fieldset[disabled] .theme-btn-primary.active {
+  background-color: #f19640;
+  border-color: #ef8928;
+}
+.theme-btn-primary .badge {
+  color: #f19640;
+  background-color: #fff;
+}
+.theme-btn-secondary {
+  color: #ffffff;
+  background-color: #bad954;
+  border-color: #b2d43f;
+}
+.theme-btn-secondary:hover,
+.theme-btn-secondary:focus,
+.theme-btn-secondary:active,
+.theme-btn-secondary.active,
+.open .dropdown-toggle.theme-btn-secondary {
+  color: #ffffff;
+  background-color: #add233;
+  border-color: #90af27;
+}
+.theme-btn-secondary:active,
+.theme-btn-secondary.active,
+.open .dropdown-toggle.theme-btn-secondary {
+  background-image: none;
+}
+.theme-btn-secondary.disabled,
+.theme-btn-secondary[disabled],
+fieldset[disabled] .theme-btn-secondary,
+.theme-btn-secondary.disabled:hover,
+.theme-btn-secondary[disabled]:hover,
+fieldset[disabled] .theme-btn-secondary:hover,
+.theme-btn-secondary.disabled:focus,
+.theme-btn-secondary[disabled]:focus,
+fieldset[disabled] .theme-btn-secondary:focus,
+.theme-btn-secondary.disabled:active,
+.theme-btn-secondary[disabled]:active,
+fieldset[disabled] .theme-btn-secondary:active,
+.theme-btn-secondary.disabled.active,
+.theme-btn-secondary[disabled].active,
+fieldset[disabled] .theme-btn-secondary.active {
+  background-color: #bad954;
+  border-color: #b2d43f;
+}
+.theme-btn-secondary .badge {
+  color: #bad954;
+  background-color: #fff;
+}
