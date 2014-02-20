@@ -7,14 +7,46 @@ hr {
 p {
   margin-bottom: 1.5em;
 }
+.logo {
+  background: url("../images/zps-ndca-logo.png") no-repeat center;
+  display: inline-block;
+  width: 180px;
+  height: 110px;
+}
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .theme-navbar {
   padding-top: 20px;
   padding-bottom: 30px;
 }
+.theme-navbar-brand {
+  height: auto;
+}
 .theme-navbar-toggle {
   padding-left: 1em;
   padding-right: 1em;
-  color: #ddd;
+  margin-top: 40px;
+  color: #888888;
 }
 .theme-navbar-toggle:hover,
 .theme-navbar-toggle:focus {
@@ -22,6 +54,7 @@ p {
 }
 .theme-navbar-menu {
   text-transform: uppercase;
+  margin-top: 35px;
 }
 .theme-header-wrap {
   margin-top: -20px;
@@ -32,6 +65,7 @@ p {
 }
 .theme-header-wrap .theme-header-wrap-slogan {
   border-color: #96b829;
+  box-shadow: -2px 0 #a7cd2d, -4px 0 #b2d43f;
 }
 .theme-header-wrap .theme-header-wrap-slogan > p {
   line-height: 1.8;
@@ -57,6 +91,18 @@ p {
 }
 .theme-about-teaser img {
   margin-top: 1.4em;
+}
+.theme-about-teaser p {
+  font-size: 1.2em;
+}
+.theme-about-teaser__header {
+  border-bottom: 5px solid #bd2818;
+  box-shadow: 0 2px 0 #d42d1b;
+  text-shadow: 0 2px 5px #bd2818;
+  padding-bottom: 10px;
+}
+.theme-about-teaser__small {
+  color: #f0eddc;
 }
 .theme-footer {
   padding-top: 2.5em;
@@ -103,7 +149,7 @@ fieldset[disabled] .theme-btn-primary.active {
 }
 .theme-btn-primary .badge {
   color: #f19640;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .theme-btn-secondary {
   color: #ffffff;
@@ -144,5 +190,5 @@ fieldset[disabled] .theme-btn-secondary.active {
 }
 .theme-btn-secondary .badge {
   color: #bad954;
-  background-color: #fff;
+  background-color: #ffffff;
 }

@@ -1,20 +1,18 @@
 {
-    "name": "zps_ndca",
-    "version": "0.0.1",
-    "description": "WP theme",
-    "main": "gulpfile.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Martin Hochel",
-    "license": "BSD-2-Clause",
-    "dependencies": {
-    },
-    "devDependencies": {
-        "gulp": "~3.4.0",
-        "gulp-imagemin": "~0.1.4",
-        "gulp-uglify": "~0.1.0",
-        "gulp-usemin": "~0.1.1",
-        "gulp-less": "~1.1.10"
-    }
+  "name": "zps_ndca",
+  "version": "0.0.1",
+  "description": "WP theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Hochel",
+  "license": "BSD-2-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
 }
