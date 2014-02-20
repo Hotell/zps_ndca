@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         watch: {
             styles: {
                 files: ['<%= src.less %>/*.less'],
-                tasks: ['newer:less:dev', 'autoprefixer']
+                tasks: ['less:dev', 'autoprefixer']
             },
             gruntfile: {
                 files: ['Gruntfile.js']
@@ -24,6 +24,7 @@ module.exports = function (grunt) {
                 files: [
                     './*.html',
                     '.tmp/styles/{,*/}*.css',
+                    './css/{,*/}*.css',
                     './images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
                     './js/*.js'
                 ]
