@@ -1,3 +1,18 @@
+/*
+Theme Name: ZPS NDCA
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: Martin Hochel
+Author URI: http://wordpress.org/
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5951,6 +5966,37 @@ body {
 }
 main {
   flex: 1;
+}
+/* Images */
+img {
+  max-width: 100%;
+}
+#content img {
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+#content .alignleft,
+#content img.alignleft {
+  float: left;
+  margin: 4px 4% 4px 0;
+}
+#content .alignright,
+#content img.alignright {
+  float: right;
+  margin: 4px 0 4px 4%;
+}
+#content .aligncenter,
+#content img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content img.alignleft,
+#content img.alignright,
+#content img.aligncenter {
+  margin-bottom: 12px;
 }
 @media (max-width: 1000px) {
   .navbar-header {
