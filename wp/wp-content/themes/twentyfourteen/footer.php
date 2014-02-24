@@ -24,5 +24,7 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+
+<!-- <?php get_current_template( true ); ?> -->
 </body>
 </html>
